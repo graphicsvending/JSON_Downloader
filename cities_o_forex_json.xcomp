@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AximmetryCompound version="2021.4.2">
+	<Parameters>
+		<Parameter type="FlowEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" ShowTestLevel="False" />
+		<Parameter type="SceneEditingParams" UseDefaults="True" HandleSize="1" SymbolSize="1" ConstantHandleSize="True" ConstantSymbolSize="True" InactiveAxises="True" HelperGeometries="True" RotationMode="0" RotateSpeed="1" TranslateSnapSize="0.1" RotateSnapSize="45" ScaleSnapSize="0.5" CameraMoverSystem="1" AllowCameraRoll="False" />
+		<Parameter type="SequenceEditingParams" UseDefaults="True" EnableShiftSnap="True" SnapThresholdPixels="10" />
+		<Parameter type="TimingParams" UseDefaults="True" Format="TimeAndFrame" SystemFPS="True" FPS="30" BPM="120" BeatsPerMeasure="4" TicksPerBeat="64" BaseDate="2015-01-01T00:00:00.0000000" DateTimeFormat="yy-MM-dd HH:mm" Length="10" />
+		<Parameter type="ArrChannelParams">
+			<PreviewChannels type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrEditContextParams" LastControlBoard="null">
+			<ControlBoardOrder type="list" itemType="String" />
+			<BookmarkSet type="dictionary" />
+		</Parameter>
+		<Parameter type="ArrVideoParams" FrameSize="1920, 1080" PixelAspect="1:1" FrameRate="50" />
+		<Parameter type="ArrHistoryParams">
+			<Items type="list">
+				<item type="ArrHistoryItem" UserName="user / Zeke Tan (zeketan)" ModifiedTime="2022-02-22T17:18:43.0736153+08:00" />
+			</Items>
+		</Parameter>
+		<Parameter type="InformationParams" Description="null" Tags="null">
+			<Thumbnail Data="null" />
+		</Parameter>
+		<Parameter type="MacroParams">
+			<Macros type="list" />
+		</Parameter>
+		<Parameter type="ArrRenderingParams" LinearPipeline="False" ColorSpaceConvFilter="*_nrm.*|*_norm.*|*_normal.*|*_met.*|*_rgh.*|*_rog.*|*_spec.*|*_gls.*|*_disp.*|*_aniso.*" />
+		<Parameter type="FBXModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False" />
+		<Parameter type="OBJModelImporterParams" FlipU="False" FlipV="True" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" SimpleHitTester="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+		<Parameter type="ColladaModelImporterParams" ImportGeometry="True" ImportLights="False" ImportCameras="False" ImportMaterials="True" LeaveEarlierMaterials="False" UseShader="[Common]:Shaders\Imported\Imp_General.xshad" BindTargetNodes="True" TargetNamePostfix=".Target" />
+		<Parameter type="FBXCameraExporterParams" BillboardRotation="False" BillboardImageSequence="False" BillboardMode="KeyedAdjusted" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="exr" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="FBXModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" ASCII="False" />
+		<Parameter type="OBJModelExporterParams" ExportGeometry="True" ExportLights="False" ExportCameras="False" ExportBillboards="True" ExportMaterials="True" CopyTextures="True" AbsoluteTexturePaths="False" KeepExistingTextures="True" SeparateOpacityMaps="False" InvertOpacityMaps="True" ConvertTextures="True" ConvertFrom="dds, hdr" ConvertTo="png" SpecularFactor="1" SpecularPowerFactor="1" ReflectionFactor="1" AllowReflectionMaps="True" AllowLuminosity="False" SequencesStartFromZero="True" SequenceNumberDigits="4" FlipU="False" FlipV="True" ExportVertexColors="False">
+			<CoordSys type="ModelCoordSys" Unit="1" Up="Z" RightHanded="True" />
+		</Parameter>
+	</Parameters>
+	<Properties Color="" ColorEdited="False" ArraySize="1" ArrayIndexOnly="0" IsContentLocked="False" Name="Root" IsLocked="False">
+		<ExtraData>
+			<item key="ViewCenter" type="PointF" value="550.2363, 912.54" />
+			<item key="ZoomFactor" type="Single" value="0.382892877" />
+			<item key="CurveEditorLayout" type="String" value="&lt;CurveEditorLayout&gt;&#xD;&#xA;&#x9;&lt;Props&gt;&#xD;&#xA;&#x9;&#x9;&lt;StartTime&gt;-0.02&lt;/StartTime&gt;&#xD;&#xA;&#x9;&#x9;&lt;Zooming&gt;250&lt;/Zooming&gt;&#xD;&#xA;&#x9;&#x9;&lt;HeadersWidth&gt;200&lt;/HeadersWidth&gt;&#xD;&#xA;&#x9;&#x9;&lt;ScrollPos&gt;0&lt;/ScrollPos&gt;&#xD;&#xA;&#x9;&lt;/Props&gt;&#xD;&#xA;&lt;/CurveEditorLayout&gt;" />
+			<item key="Notes" type="String" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;FlowNotes&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;1&quot; Title=&quot;Forex Currency URL (Free Sign Up)&quot; Text=&quot;https://currencylayer.com/&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AA9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-1012, 1155, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&#x9;&lt;note ID=&quot;2&quot; Title=&quot;Weather URL (Free Sign Up)&quot; Text=&quot;https://www.weatherapi.com&quot; Transparent=&quot;False&quot; AutoColor=&quot;True&quot; BackColor=&quot;#AA9E81&quot; TitleForeColor=&quot;Black&quot; ForeColor=&quot;Black&quot; AutoSize=&quot;True&quot; AutoMaxWidth=&quot;400&quot; Bounds=&quot;-986, -249, 0, 0&quot; TitleFontSize=&quot;9&quot; FontSize=&quot;9&quot; TitleFontStyle=&quot;Bold&quot; FontStyle=&quot;Regular&quot; Alignment=&quot;Near&quot; /&gt;&#xD;&#xA;&lt;/FlowNotes&gt;" />
+		</ExtraData>
+	</Properties>
+	<Children>
+		<Module Type="JSONFile">
+			<Properties Name="JSON File" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-987, -180" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="JSONFile" Type="PinStringValue" Value="C:\Users\user\Documents\Python_Projects\download_json_from_url\CITIES.json" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Text Concat Multi" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="284, 50" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value="\n" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="" />
+				<Pin Name="Text2" Type="PinStringValue" Value="" />
+				<Pin Name="Text3" Type="PinStringValue" Value="" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="Subcollection">
+			<Properties Name="Subcollection" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-809, -132" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="location" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-547, -179" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="name" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-543, -56" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="region" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextImage">
+			<Properties Name="Text Image" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="487, -146" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AutoImageSize" Type="PinBoolValue" Value="False" />
+				<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+				<Pin Name="FixedHeight" Type="PinBoolValue" Value="False" />
+				<Pin Name="ImageSize" Type="PinVectorValue" Value="1920, 1080" />
+				<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+				<Pin Name="AdjustPosition" Type="PinVectorValue" Value="0, 0" />
+				<Pin Name="BgColor" Type="PinColorValue" Value="" />
+				<Pin Name="Color" Type="PinColorValue" Value="1, White" />
+				<Pin Name="Text" Type="PinStringValue" Value="Text" />
+				<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-538, 67" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="country" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-534, 191" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="lat" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-333, 214" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="Lat: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-542, 328" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="lon" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-331, 326" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="Lon: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-542, 466" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="tz_id" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-331, 464" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="TZ ID: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 4" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-330, 96" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="Country: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 5" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-332, -17" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="Region: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 6" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-322, -144" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="Name: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-533, 613" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="localtime" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 7" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-322, 611" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="Local Time: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="JSONFile">
+			<Properties Name="JSON File 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-1001, 1243" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="JSONFile" Type="PinStringValue" Value="C:\Users\user\Documents\Python_Projects\download_json_from_url\FOREX.json" />
+				<Pin Name="Open" Type="PinBoolValue" Value="True" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcatMulti">
+			<Properties Name="Text Concat Multi 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="58, 1433" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Separator" Type="PinStringValue" Value="\n" />
+				<Pin Name="SkipEmpty" Type="PinBoolValue" Value="True" />
+				<Pin Name="Text1" Type="PinStringValue" Value="" />
+				<Pin Name="Text2" Type="PinStringValue" Value="" />
+				<Pin Name="Text3" Type="PinStringValue" Value="" />
+				<Pin Name="Text4" Type="PinStringValue" Value="" />
+				<Pin Name="Text5" Type="PinStringValue" Value="" />
+				<Pin Name="Text6" Type="PinStringValue" Value="" />
+				<Pin Name="Text7" Type="PinStringValue" Value="" />
+				<Pin Name="Text8" Type="PinStringValue" Value="" />
+				<Pin Name="Text9" Type="PinStringValue" Value="" />
+				<Pin Name="Text10" Type="PinStringValue" Value="" />
+				<Pin Name="Text11" Type="PinStringValue" Value="" />
+				<Pin Name="Text12" Type="PinStringValue" Value="" />
+				<Pin Name="Text13" Type="PinStringValue" Value="" />
+				<Pin Name="Text14" Type="PinStringValue" Value="" />
+				<Pin Name="Text15" Type="PinStringValue" Value="" />
+				<Pin Name="Text16" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="Subcollection">
+			<Properties Name="Subcollection 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-823, 1291" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="quotes" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-561, 1244" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="USDEUR" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-557, 1367" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="USDGBP" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextImage">
+			<Properties Name="Text Image 2" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="40, 1236" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Active" Type="PinBoolValue" Value="True" />
+				<Pin Name="AutoImageSize" Type="PinBoolValue" Value="False" />
+				<Pin Name="FixedWidth" Type="PinBoolValue" Value="False" />
+				<Pin Name="FixedHeight" Type="PinBoolValue" Value="False" />
+				<Pin Name="ImageSize" Type="PinVectorValue" Value="1920, 1080" />
+				<Pin Name="AdjustAutoSize" Type="PinVectorValue" Value="0, 0" />
+				<Pin Name="AdjustPosition" Type="PinVectorValue" Value="0, 0" />
+				<Pin Name="BgColor" Type="PinColorValue" Value="" />
+				<Pin Name="Color" Type="PinColorValue" Value="1, White" />
+				<Pin Name="Text" Type="PinStringValue" Value="Text" />
+				<Pin Name="Mipmaps" Type="PinBoolValue" Value="False" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-552, 1490" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="USDCAD" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-548, 1614" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="USDJPY" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 8" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-347, 1637" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="USDJPY: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-556, 1751" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="USDAUD" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 9" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-345, 1749" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="USDAUD: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 11" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-344, 1519" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="USDCAD: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 12" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-346, 1406" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="USDGBP: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 13" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-336, 1279" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="USDEUR: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-556, 1889" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="USDNZD" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 10" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-345, 1887" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="USDNZD: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-547, 2036" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="USDSGD" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 14" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-336, 2034" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="USDSGD: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="CollectionText">
+			<Properties Name="Collection Text 17" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-535, 784" />
+					<item key="DisplayMode" type="FlowNodeDisplayMode" value="AllPins" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="temp_c" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+				<Pin Name="Default" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 15" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-59, 799" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="Temperature: " />
+				<Pin Name="B" Type="PinStringValue" Value="" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+		<Module Type="Subcollection">
+			<Properties Name="Subcollection 3" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-852, 150" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="Key" Type="PinStringValue" Value="current" />
+				<Pin Name="Index" Type="PinIntValue" Value="0" />
+			</PinValues>
+		</Module>
+		<Module Type="TextConcat">
+			<Properties Name="Text Concat 16" IsLocked="False">
+				<ExtraData>
+					<item key="Location" type="PointF" value="-255, 802" />
+				</ExtraData>
+			</Properties>
+			<PinValues>
+				<Pin Name="A" Type="PinStringValue" Value="Temp: " />
+				<Pin Name="B" Type="PinStringValue" Value="°C" />
+				<Pin Name="Separator" Type="PinStringValue" Value="" />
+			</PinValues>
+		</Module>
+	</Children>
+	<ExposerInputPins />
+	<ExposerOutputPins>
+		<Pin Name="Out" Type="PinVideoValue" SourceModule="Text Image" SourcePin="Out" />
+	</ExposerOutputPins>
+	<Connections>
+		<Connection FromModule="Text Concat 6" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text1" />
+		<Connection FromModule="Text Concat 5" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text2" />
+		<Connection FromModule="Text Concat 4" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text3" />
+		<Connection FromModule="Text Concat" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text4" />
+		<Connection FromModule="Text Concat 2" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text5" />
+		<Connection FromModule="Text Concat 3" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text6" />
+		<Connection FromModule="Text Concat 7" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text7" />
+		<Connection FromModule="Text Concat 15" FromPin="Out" ToModule="Text Concat Multi" ToPin="Text8" />
+		<Connection FromModule="JSON File" FromPin="Out" ToModule="Subcollection" ToPin="Collection" />
+		<Connection FromModule="Subcollection" FromPin="Out" ToModule="Collection Text 3" ToPin="Collection" />
+		<Connection FromModule="Subcollection" FromPin="Out" ToModule="Collection Text 4" ToPin="Collection" />
+		<Connection FromModule="Text Concat Multi" FromPin="Out" ToModule="Text Image" ToPin="Text" />
+		<Connection FromModule="Subcollection" FromPin="Out" ToModule="Collection Text 5" ToPin="Collection" />
+		<Connection FromModule="Subcollection" FromPin="Out" ToModule="Collection Text 6" ToPin="Collection" />
+		<Connection FromModule="Collection Text 6" FromPin="Out" ToModule="Text Concat" ToPin="B" />
+		<Connection FromModule="Subcollection" FromPin="Out" ToModule="Collection Text 7" ToPin="Collection" />
+		<Connection FromModule="Collection Text 7" FromPin="Out" ToModule="Text Concat 2" ToPin="B" />
+		<Connection FromModule="Subcollection" FromPin="Out" ToModule="Collection Text 8" ToPin="Collection" />
+		<Connection FromModule="Collection Text 8" FromPin="Out" ToModule="Text Concat 3" ToPin="B" />
+		<Connection FromModule="Collection Text 5" FromPin="Out" ToModule="Text Concat 4" ToPin="B" />
+		<Connection FromModule="Collection Text 4" FromPin="Out" ToModule="Text Concat 5" ToPin="B" />
+		<Connection FromModule="Collection Text 3" FromPin="Out" ToModule="Text Concat 6" ToPin="B" />
+		<Connection FromModule="Subcollection" FromPin="Out" ToModule="Collection Text 9" ToPin="Collection" />
+		<Connection FromModule="Collection Text 9" FromPin="Out" ToModule="Text Concat 7" ToPin="B" />
+		<Connection FromModule="Text Concat 13" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text1" />
+		<Connection FromModule="Text Concat 12" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text2" />
+		<Connection FromModule="Text Concat 11" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text3" />
+		<Connection FromModule="Text Concat 8" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text4" />
+		<Connection FromModule="Text Concat 9" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text5" />
+		<Connection FromModule="Text Concat 10" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text6" />
+		<Connection FromModule="Text Concat 14" FromPin="Out" ToModule="Text Concat Multi 2" ToPin="Text7" />
+		<Connection FromModule="JSON File 2" FromPin="Out" ToModule="Subcollection 2" ToPin="Collection" />
+		<Connection FromModule="Subcollection 2" FromPin="Out" ToModule="Collection Text 10" ToPin="Collection" />
+		<Connection FromModule="Subcollection 2" FromPin="Out" ToModule="Collection Text 11" ToPin="Collection" />
+		<Connection FromModule="Text Concat Multi 2" FromPin="Out" ToModule="Text Image 2" ToPin="Text" />
+		<Connection FromModule="Subcollection 2" FromPin="Out" ToModule="Collection Text 12" ToPin="Collection" />
+		<Connection FromModule="Subcollection 2" FromPin="Out" ToModule="Collection Text 13" ToPin="Collection" />
+		<Connection FromModule="Collection Text 13" FromPin="Out" ToModule="Text Concat 8" ToPin="B" />
+		<Connection FromModule="Subcollection 2" FromPin="Out" ToModule="Collection Text 14" ToPin="Collection" />
+		<Connection FromModule="Collection Text 14" FromPin="Out" ToModule="Text Concat 9" ToPin="B" />
+		<Connection FromModule="Collection Text 12" FromPin="Out" ToModule="Text Concat 11" ToPin="B" />
+		<Connection FromModule="Collection Text 11" FromPin="Out" ToModule="Text Concat 12" ToPin="B" />
+		<Connection FromModule="Collection Text 10" FromPin="Out" ToModule="Text Concat 13" ToPin="B" />
+		<Connection FromModule="Subcollection 2" FromPin="Out" ToModule="Collection Text 15" ToPin="Collection" />
+		<Connection FromModule="Collection Text 15" FromPin="Out" ToModule="Text Concat 10" ToPin="B" />
+		<Connection FromModule="Subcollection 2" FromPin="Out" ToModule="Collection Text 16" ToPin="Collection" />
+		<Connection FromModule="Collection Text 16" FromPin="Out" ToModule="Text Concat 14" ToPin="B" />
+		<Connection FromModule="Subcollection 3" FromPin="Out" ToModule="Collection Text 17" ToPin="Collection" />
+		<Connection FromModule="Text Concat 16" FromPin="Out" ToModule="Text Concat 15" ToPin="B" />
+		<Connection FromModule="JSON File" FromPin="Out" ToModule="Subcollection 3" ToPin="Collection" />
+		<Connection FromModule="Collection Text 17" FromPin="Out" ToModule="Text Concat 16" ToPin="A" />
+	</Connections>
+</AximmetryCompound>
